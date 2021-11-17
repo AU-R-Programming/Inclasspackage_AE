@@ -20,7 +20,7 @@ A \code{list} minimum mean
 Functions implementing the two optimization routines from previous classes (opt_mean1 and opt_mean2). These take a generic loss function "fn" as an argument.
 }
 \examples{
-First optimization function
+opt_mean(rnrom(10, 2, 1), fn = loss)
 }
 \author{
 Aya

@@ -27,7 +27,7 @@ loss_l1 <- function(mu, x) {
 #' @importFrom stats runif
 #' @export
 #' @examples
-#' First optimization function
+#' opt_mean(rnrom(10, 2, 1), fn = loss)
 opt_mean1 <- function(x, fn, iter = 100) {
 
   mu_hat <- runif(iter, min(x), max(x)) # vector of "suggested" sample means
